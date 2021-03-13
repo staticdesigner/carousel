@@ -112,6 +112,7 @@ h2.ourslabs {
   align-items: center;
   justify-content: center;
   display: none;
+  max-height: 355px;
 }
 .glide__slide.glide__slide--active
   .slab_slider__slide__img-wrapper:hover
