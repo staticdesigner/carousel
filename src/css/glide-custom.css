@@ -25,17 +25,6 @@ h2.ourslabs {
   overflow: visible;
 }
 
-.glide__slides li.glide__slide--active > div:after {
-  /* font-family: serif; */
-  /* z-index: 1; */
-  /* content: "OUR SLAB COLLECTION"; */
-  /* display: block; */
-  /* position: absolute; */
-  /* top: -49px; */
-  /* left: 270px; */
-  /* color: #000; */
-  /* font-size: 20px; */
-}
 .slab_slider__slide {
   padding: 16px 33px 10px;
   position: relative;
@@ -55,7 +44,7 @@ h2.ourslabs {
   background-color: #363636;
 }
 .slab_slider__slide a {
-  color: white;
+  color: white !important;
   display: flex;
   flex-direction: column;
   text-decoration: none;
