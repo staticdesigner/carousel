@@ -176,7 +176,7 @@ h2.ourslabs {
     top: 0;
     bottom: 0;
     display: block;
-    width: 100px;
+    width: 15vw;
     cursor: pointer;
     opacity: 0;
   }
@@ -186,7 +186,7 @@ h2.ourslabs {
     top: 0;
     bottom: 0;
     display: block;
-    width: 100px;
+    width: 15vw;
     cursor: pointer;
     opacity: 0;
   }
@@ -214,7 +214,7 @@ h2.ourslabs {
     li.glide__slide:not(.glide__slide--active)
     .slab_slider__slide {
     background-color: transparent;
-    padding: 25px 0 10px;
+    padding: 35px 0 10px;
   }
   .glide__slides
     li.glide__slide:not(.glide__slide--active)
@@ -319,5 +319,19 @@ h2.ourslabs {
   }
   .SlabCollection-module--btn-see-all--PRQwF {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .SlabCollection-module--btn-see-all--PRQwF {
+    margin: 0 auto 48px;
+    padding-top: 0;
+    border-left: 0;
+  }
+  .glide__slide.glide__slide--active
+    .slab_slider__slide__img-wrapper:hover
+    .slab_slider__slide__details-btn
+    div {
+    display: none;
   }
 }
