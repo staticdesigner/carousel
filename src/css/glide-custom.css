@@ -62,6 +62,9 @@ h2.ourslabs {
   line-height: 1.2;
   letter-spacing: 1;
 }
+.glide__slide--active ~ li > div > a > div.slab_slider__slide__background_text {
+  left: 0 !important;
+}
 .slab_slider__slide > a > :nth-child(1) {
   order: 1;
   font-family: Roboto, Open Sans, Helvetica Neue, sans-serif;
