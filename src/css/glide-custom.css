@@ -1,6 +1,9 @@
 body {
   font-family: Roboto, Open Sans, Helvetica Neue, sans-serif;
 }
+.glide__slide {
+  height: auto;
+}
 .slidersection {
   position: relative;
   position: relative;
