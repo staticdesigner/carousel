@@ -254,7 +254,7 @@ h2.ourslabs {
     a
     div.slab_slider__slide__img-wrapper {
     display: flex;
-    height: 100%;
+    height: 325px;
   }
   .glide__slides
     li.glide__slide.glide__slide--active
