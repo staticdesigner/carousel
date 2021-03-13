@@ -162,8 +162,14 @@ h2.ourslabs {
   max-height: 3rem;
   width: auto;
 }
+.glide__arrows {
+  display: none;
+}
 
 @media (min-width: 800px) {
+  .glide__arrows {
+    display: flex;
+  }
   .glide__slides li.glide__slide--active > div:before {
     z-index: -1;
     content: " ";
